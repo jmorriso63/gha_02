@@ -26,7 +26,7 @@ jobs:
             - name: Step one
               uses: actions/checkout@v2
             - name: step two
-              run: data
+              run: date
     job4:
         name: fourth job
         runs-on: ubuntu-lates
